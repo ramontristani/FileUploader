@@ -17,7 +17,7 @@ The File Uploader demo application is built in modular fashion from server to cl
 
 ## Configuration
  * Install and configure [Node.js](http://nodejs.org/)
- * Install and configure [MongoDB](http://www.mongodb.org/)
+ * Install and configure [ExpressJS](http://expressjs.com/)
 
 ## Running the sample
 The server default address is: http://localhost:3000
