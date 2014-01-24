@@ -73,8 +73,10 @@
                         $('#utils').hide();
 
                         var dropZone = document.getElementById('dropzone');
-                        dropZone.addEventListener('dragover', self.dragover, false);
-                        dropZone.addEventListener('drop', self.drop, false);
+                        if (dropZone) {
+                            dropZone.addEventListener('dragover', self.dragover, false);
+                            dropZone.addEventListener('drop', self.drop, false);
+                        }
 
                     } else {
                         $('#supported').hide();
@@ -107,9 +109,7 @@
             $('#utils').hide();
             $('#fileList').empty();
 
-            var droppedFiles = _.reject(e.dataTransfer.files, function(f) { return f.size > Global.options.maxFileSize; })
-                , output = []
-                , files = new Files();
+            var droppedFiles = _.reject(e.dataTransfer.files, function(f) { return f.size > Global.options.maxFileSize; });
 
             if (droppedFiles.length !== e.dataTransfer.files.length) {
                 var content = Global.utils.string.format('<strong>Warning: </strong> {0}.',

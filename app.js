@@ -7,8 +7,7 @@ var express = require('express')
 	, connect = require('connect')
 	, routes = require('./routes')
 	, http = require('http')
-	, path = require('path')
-	, _ = require('underscore');
+	, path = require('path');
 
 var app = express();
 
