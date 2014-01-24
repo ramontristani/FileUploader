@@ -5,9 +5,7 @@ and drop functionality from the file system to a file well on the browser withou
 HTML5 compatible browsers capable of receiving input from the file system are supported by this demo. 
 
 
-Rolodex Manager is a contact list manager built as a single page application. The application runs on a Node.js/Express 
-server with a MongoDB backend. The front-end is built with html templates and modularized javascript code. The application 
-is built with the following libraries:
+The application is built with the following libraries:
  * [Backbone.js](http://backbonejs.org/)
  * [Underscore.js (Backbone.js dependency)](http://underscorejs.org/)
  * [jquery](http://jquery.com/)
