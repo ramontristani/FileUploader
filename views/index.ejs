@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/styles/styles.css' />
+</head>
+<body>
+    <% include shared/header.ejs %>
+    
+    <div id="alert" class="alert alert-dismissable">
+        <button type="button" id="alertDismiss" class="close" aria-hidden="true">&times;</button>
+        <span id="alertContent"></span>
+    </div>
+
+    <div class="container body-content">
+        <div class="jumbotron">
+            <h1>File Uploader Demo<small>Node.js/Backbone.js version</small></h1>
+            <p class="lead">The purpose of this demo is to showcase file upload concepts using the HTML5 File API</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Getting started</h2>
+                <ol>
+                    <li>Select one or more files from the file system</li>
+                    <li>Drag files onto the file drop well</li>
+                    <li>Drop files</li>
+                    <li>Click the upload button</li>
+                </ol>
+            </div>
+            <div class="col-md-9">
+                <div id="content" class="row"></div>
+            </div>
+        </div>
+
+        <% include shared/footer.ejs %>
+
+    </div>
+
+    <script src="/script/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/script/underscore.js"></script>
+    <script src="/script/backbone.js"></script>
+    <script src="/script/globals.js"></script>
+    <script src="/script/models.js"></script>
+    <script src="/script/views.js"></script>
+    <script src="/script/routers.js"></script>
+    <script src="/script/app.js"></script>
+    
+</body>
+</html>

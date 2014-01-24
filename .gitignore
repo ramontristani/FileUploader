@@ -1,0 +1,4 @@
+*private.js
+*.old
+.idea/
+node_modules/

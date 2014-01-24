@@ -1,0 +1,46 @@
+<div class="container">
+    <div id="supported" class="row">
+        <div class="col-md-2">
+            <div id="dropzone" class="focusGlow">
+                Drop Files Here
+                <img id="ajaxLoader" src="/media/image/loader.gif">
+            </div>
+            <div id="utils">
+                <button id="upload" class="btn btn-primary btn-sm">
+                    <span id="loginIcon" class="glyphicon glyphicon-cloud-upload"></span>
+                    <span>Upload</span>
+                </button>
+                <button id="clear" class="btn btn-danger btn-sm">
+                    <span id="loginIcon" class="glyphicon glyphicon-trash"></span>
+                    <span>Clear</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-10">
+			<h3 id="fileCount"></h3>
+            <ul id="fileList" class="list-group"></ul>
+        </div>
+    </div>
+
+    <div id="unsupported" class="row">
+        <h3>Unsupported</h3>
+        <p>
+            Your web browser does not support this feature. Please use a supported
+            broswer from the list below:
+        </p>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a>
+                <span>Google Chrome is a freeware web browser developed by Google</span>
+            </li>
+            <li class="list-group-item">
+                <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>
+                <span>Mozilla Firefox is a free and open-source web browser</span>
+            </li>
+            <li class="list-group-item">
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a>
+                <span>Internet Explorer is a web browser developed by Microsoft and part of the Microsoft Windows line of operating systems</span>
+            </li>
+        </ul>
+    </div>
+</div>

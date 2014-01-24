@@ -1,0 +1,27 @@
+{
+  "name": "FileUploader",
+  "description": "Node.JS path module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "ejs": "*",
+    "less-middleware": "*",
+    "connect": "~2.12.0",
+    "mongodb": "~1.3.23",
+    "path": "~0.4.9",
+    "underscore": "~1.5.2",
+    "uuid": "~1.4.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "FileUploader@1.0.0",
+  "_from": "FileUploader@"
+}
+
